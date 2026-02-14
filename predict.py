@@ -8,10 +8,10 @@ from sqlalchemy import create_engine
 # CONFIGURATION
 # ==========================================================
 
-DB_HOST = "your-server.postgres.database.azure.com"
-DB_NAME = "your_db"
-DB_USER = "your_user"
-DB_PASS = "your_password"
+DB_HOST = "fintech-pg-server.postgres.database.azure.com"
+DB_NAME = "disputeiqdb"
+DB_USER = "pgadmin"
+DB_PASS = "disputeIQ1"
 DB_PORT = 5432
 
 # Local model directory (same as training script)
